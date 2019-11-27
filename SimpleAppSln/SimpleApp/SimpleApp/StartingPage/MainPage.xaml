@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SimpleApp.MainPage"
+            BackgroundImage="welcome.jpg"
+             >
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        
+        <Image 
+            
+            Source="title.png"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+            HeightRequest="130"
+               
+               />
+
+        
+
+        <Image 
+            
+            Source="sun.png"
+               HeightRequest="200"
+               HorizontalOptions="CenterAndExpand"
+            VerticalOptions="CenterAndExpand"
+               
+               
+               />
+
+        <Button 
+            
+            x:Name="Journey" 
+                Text="Your journey starts here !" 
+                      TextColor="Black"
+                        VerticalOptions="CenterAndExpand"
+                             HorizontalOptions="CenterAndExpand"
+                             HeightRequest="100" 
+                        FontSize="23"             
+                     Clicked="ActivityOneButton_Clicked"
+                 BorderRadius = "100"
+            BorderWidth = "12"
+            
+        />
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </StackLayout>
+   
+
+</ContentPage>

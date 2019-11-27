@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SimpleApp.AngerManagement"
+             BackgroundImageSource="angry.jpg"
+             >
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+                
+                                    
+                                
+            <Label 
+                
+                Text="WELCOME TO ANGER MANAGEMENT !"
+                    FontSize="30"
+                         HorizontalTextAlignment="Center"
+                         TextColor="DarkCyan"
+                     VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   
+            />
+
+            
+
+            <ImageButton 
+            
+            Source="angerIssues.jpg"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+            Clicked="WebAnger"
+               
+               />
+
+            <Button 
+            
+            x:Name="Anger" 
+                Text="Click If This Is You ?" 
+                    TextColor="Red"
+                        BackgroundColor="Orange"
+                             VerticalOptions="CenterAndExpand"
+                                HorizontalOptions="CenterAndExpand"
+                             HeightRequest="50" 
+                        FontSize="23"             
+                     Clicked="WebAnger"
+                 BorderRadius = "50"
+            BorderWidth = "12"
+            
+            />
+
+                <ScrollView 
+                
+                VerticalOptions="FillAndExpand">
+
+                    <Label 
+                    
+                    Text="Effects of anger
+                    Chronic anger that flares up all the time or spirals out of control can have serious consequences for your:
+                    Physical health.Constantly operating at high levels of stress and anger makes you more susceptible to heart disease, diabetes, a weakened immune system, insomnia, and high blood pressure.
+                    Mental health. Chronic anger consumes huge amounts of mental energy, and clouds your thinking, making it harder to concentrate or enjoy life. It can also lead to stress, depression, and other mental health problems.
+                    Career. Constructive criticism, creative differences, and heated debate can be healthy. But lashing out only alienates your colleagues, supervisors, or clients and erodes their respect.
+                    Relationships. Anger can cause lasting scars in the people you love most and get in the way of friendships and work relationships. Explosive anger makes it hard for others to trust you, speak honestly, or feel comfortable—and is especially damaging to children.
+                    If you have a hot temper, you may feel like it's out of your hands and there's little you can do to tame the beast. But you have more control over your anger than you think. With insight about the real reasons for your anger and these anger management tools, you can learn to express your emotions without hurting others and keep your temper from hijacking your life."
+                    
+                        TextColor="DarkOrange" 
+                            HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                                     Margin="20"
+                                     VerticalTextAlignment="Center"
+                                HorizontalTextAlignment="Center"
+                            LineHeight="1"
+                        FontSize="30"
+                        
+                       />
+
+                </ScrollView>
+
+                <Label 
+                    
+                    Text="STILL STRESSED OUT TRY THIS APP BELOW"
+                            TextColor="DarkOrange"
+                                BackgroundColor="Blue"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Center"
+                    FontSize="30"
+                        
+                       />
+
+                <Button 
+            
+                x:Name="AppLink" 
+                    Text="MEDITATION App" 
+                          TextColor="Blue"
+                                BackgroundColor="DarkGray"
+                                    VerticalOptions="CenterAndExpand"
+                                        HorizontalOptions="Center"
+                                    HeightRequest="50" 
+                                FontSize="23"             
+                          Clicked="WebApp"
+                    Margin="13"
+                BorderWidth = "12"
+            
+                />
+
+
+
+
+                                
+            
+                <ImageButton 
+                
+                
+                Source="likeUs.jpg"
+                    HorizontalOptions="Start"
+                         VerticalOptions="End" 
+                    HeightRequest="50"             
+               Clicked="Like" 
+                
+            />
+            
+            
+            
+            
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

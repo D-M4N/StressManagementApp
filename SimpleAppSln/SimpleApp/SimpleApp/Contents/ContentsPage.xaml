@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SimpleApp.Contents"
+             BackgroundImageSource="home.jpg"
+             >
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+
+            <Label 
+                
+                Text="Let Stress free begin !"
+                    FontSize="35"
+                        TextColor="AntiqueWhite"
+                    VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" 
+            />
+
+            <Label 
+                
+                Text="SOME COMIC RELIEF "
+                    FontSize="24"
+                        TextColor="Red"
+                    VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" 
+            />
+
+             <ImageButton 
+                
+                
+                Source="chuckJokes.jpg"
+                    HorizontalOptions="Start"
+                         VerticalOptions="StartAndExpand"
+                         Margin="20"
+                    HeightRequest="150"
+                Clicked="Chuck" 
+                         
+                         
+            />
+
+            <ImageButton 
+                
+                
+                Source="dadJokes.jpg"
+                    HorizontalOptions="End"
+                         VerticalOptions="StartAndExpand"
+                         Margin="20"
+                    HeightRequest="150"
+                Clicked="Dad" 
+                         
+                         
+            />
+
+            <Label 
+                
+                Text="STRESS ELEVIATION TACTICS "
+                    FontSize="25"
+                        TextColor="DarkBlue"
+                    VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+            />
+
+                <ImageButton 
+                
+                
+                Source="LoveDancing.jpg"
+                    HorizontalOptions="Start"
+                         VerticalOptions="StartAndExpand"
+                         Margin="20"
+                    HeightRequest="150"
+                Clicked="Dancing" 
+                         
+                         
+            />
+
+                <ImageButton 
+                
+                
+                Source="AngerManagement.jpg"
+                    HorizontalOptions="Start"
+                         VerticalOptions="StartAndExpand"
+                         Margin="20"
+                    HeightRequest="150"
+                Clicked="Angry" 
+                         
+                         
+            />
+ </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

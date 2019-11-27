@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SimpleApp.Registration.RegistrationInfo"
+             BackgroundImageSource="WelcomeToTheTeamEdit.jpg"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            
+                <Label 
+                  Text="REGISTRATION INFORMATION" 
+                  FontAttributes="Bold" 
+                    FontSize="20"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                                           
+                  />
+            <ListView 
+                ItemsSource="{Binding Info}" 
+                HasUnevenRows="True" 
+                >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid 
+                                    Margin="7"
+                                >
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition 
+                                            Height="Auto" 
+                                        />
+                                        <RowDefinition 
+                                            Height="Auto" 
+                                        />
+                                        <RowDefinition 
+                                            Height="Auto" 
+                                        />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition 
+                                            Width="Auto"
+                                        />
+                                        <ColumnDefinition 
+                                            Width="Auto"
+                                        />
+                                    </Grid.ColumnDefinitions>
+
+                                    
+
+                                    <Label 
+                                           Text="UserName" 
+                                           FontAttributes="Bold" 
+                                           Grid.Row="1" 
+                                           Grid.Column="0"
+                                           FontSize="20"
+                                    />
+                                    <Label 
+                                           Text="{Binding UserName}"  
+                                           Grid.Row="2" 
+                                           Grid.Column="0"
+                                           FontSize="20"
+                                    />
+                                    <Label 
+                                           Text="Email" 
+                                           FontAttributes="Bold" 
+                                           Grid.Row="4" 
+                                           Grid.Column="0"
+                                           FontSize="20"
+                                    />
+                                    <Label 
+                                           Text="{Binding Email}" 
+                                           Grid.Row="5" 
+                                           Grid.Column="0"
+                                           FontSize="20"
+                                    />
+
+                                    <Label 
+                                           Text="ContactDetails"
+                                           FontAttributes="Bold" 
+                                           Grid.Row="7" 
+                                           Grid.Column="0"
+                                           FontSize="20"
+                                    />
+                                    <Label 
+                                           Text="{Binding ContactDetails}"  
+                                           Grid.Row="8" 
+                                           Grid.Column="0"
+                                           FontSize="20"
+                                    />
+                                   
+
+
+
+
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+                <Button
+                 Text="CONFIRM"
+             
+            ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

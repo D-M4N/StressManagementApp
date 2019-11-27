@@ -1,0 +1,110 @@
+﻿
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SimpleApp.chuckJokes"
+             BackgroundImageSource="chuckBackDrop.jpg"
+             
+             >
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+
+                <Label 
+                
+                Text="CHUCK JOKES !"
+                TextColor="White"
+                     VerticalOptions="Center" 
+                     HorizontalOptions="Center" 
+                FontSize="50"
+                
+            
+            />
+
+                <Image 
+                
+                Source="chuckNorris.png"
+                     Aspect="AspectFit"               
+                     VerticalOptions="Center"
+                HeightRequest="230"
+                
+              />
+
+                <ScrollView VerticalOptions="FillAndExpand">
+                    <Label 
+            x:Name="JokeLabel" 
+                HeightRequest="200"
+                    BackgroundColor="Black"
+                        VerticalOptions="Center"
+                    TextColor="AliceBlue"
+                FontSize="Large"
+            VerticalTextAlignment="Center"
+      
+            />
+                </ScrollView>
+
+                <Button
+            
+            x:Name="JokeButton" 
+                Text="Get Random Joke" 
+                    BorderColor="Chocolate"  
+                        TextColor="Green"
+                        BackgroundColor="White"
+                    HeightRequest="50" 
+                FontSize="Large"             
+           Clicked="JokeButton_Clicked"
+                HorizontalOptions="End"
+                
+                
+          
+            ></Button>
+
+
+
+            <ImageButton 
+                
+                x:Name="ChuckVid" 
+                Source="ChuckVsAb.jpg"
+                    VerticalOptions="Start"
+                         HorizontalOptions="StartAndExpand"
+                    HeightRequest="180"
+               Aspect="AspectFill"
+                Scale="1"
+                 Clicked="ChuckVsAb"
+                         
+                         
+            />
+                <ImageButton 
+                
+                x:Name="ChuckNorrisFacts" 
+                Source="MoreChuckFacts.jpg"
+                    VerticalOptions="Start"
+                         HorizontalOptions="End"
+                    HeightRequest="180"
+               Aspect="AspectFill"
+                Scale="1"
+                 Clicked="ChuckInfo"
+                         
+                         
+            />
+
+            <ImageButton 
+                
+                
+               Source="likeUs.jpg"
+                    HorizontalOptions="Start"
+                         VerticalOptions="End" 
+                    HeightRequest="50"             
+               Clicked="Like" 
+                
+            />
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

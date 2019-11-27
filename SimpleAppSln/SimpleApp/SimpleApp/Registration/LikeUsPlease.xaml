@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SimpleApp.LikeUsPlease"
+             BackgroundImageSource="likeUsBackDrop.jpg"
+             
+             
+             >
+    
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            
+            
+            <Label 
+                
+                Text="THANKS FOR YOUR SUPPORT !"
+                    FontSize="40"
+                        TextColor="Peru"
+                            FontAttributes="Bold"
+                        VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                HorizontalTextAlignment="Center"
+            />
+
+            <Button
+            
+                Text="REGISTER FOR LATEST CONTENT"
+                    FontSize="20"
+                         HeightRequest="70"
+                         HorizontalOptions="Center"
+                    Clicked="Register_Button"
+                BorderRadius = "30"
+                
+                
+                
+            ></Button>
+            
+
+            <ImageButton 
+                
+                
+                Source="VisitUs.jpg"
+                    HorizontalOptions="Center"
+                         VerticalOptions="StartAndExpand"
+                         HeightRequest="150"
+                    Clicked="HQ_Button"
+                Margin="13"
+                
+            />
+
+            <Label 
+                Text="Have Fun While Getting Smart Try !"
+                    FontSize="30"
+                        TextColor="Blue"
+                            VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand"
+                    VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                   
+            />
+            
+            <ImageButton 
+                
+                
+                Source="SmartApp.JPG"
+                    HorizontalOptions="Center"
+                         VerticalOptions="StartAndExpand" 
+                    HeightRequest="100"             
+                Clicked="SmartApp"
+                
+            />
+
+
+
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

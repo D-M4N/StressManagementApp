@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SimpleApp.ActivityOne"
+             BackgroundImageSource="home.jpg"
+             >
+    
+    
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label 
+                 
+                
+                Text="About our APP!"
+                    FontSize="50"
+                        TextColor="Black"
+                    VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" 
+                
+                />
+
+            
+
+                <ScrollView VerticalOptions="FillAndExpand">
+
+                    <Label 
+                    
+                    Text="Our App is dedicated to find the most simple way to relieve stress.
+                    
+                    Tips to manage stressful situations. It might surprise you to learn that biological stress is a fairly recent discovery. It wasn't until the late 1950s that endocrinologist Hans Selye first identified and documented stress. 
+                    Symptoms of stress existed long before Selye, but his discoveries led to new research that has helped millions cope with stress. We've compiled a list of the top 10 ways to relieve stress.
+                    Listen to music. If you're feeling overwhelmed by a stressful situation, try taking a break and listening to relaxing music. Playing calm music has a positive effect on the brain and body, can lower blood pressure, and reduce cortisol, a hormone linked to stress.
+                    We recommend cello master Yo-Yo Ma playing Bach, but if classical really isn't your thing, try listening to ocean or nature sounds. It may sound cheesy, but they have similar relaxing effects to music.
+                    Talk it out with a friend. When you're feeling stressed, take a break to call a friend and talk about your problems. Good relationships with friends and loved ones are important to any healthy lifestyle.
+                    They're especially important when you're under a lot of stress. A reassuring voice, even for a minute, can put everything in perspective.
+                    Talk yourself through it. Sometimes calling a friend is not an option. If this is the case, talking calmly to yourself can be the next best thing. 
+                    Don't worry about seeming crazy — just tell yourself why you're stressed out, what you have to do to complete the task at hand, and most importantly, that everything will be okay.
+                    Eat right. Stress levels and a proper diet are closely related. When we're overwhelmed, we often forget to eat well and resort to using sugary, fatty snack foods as a pick-me-up. 
+                    Try to avoid sugary snacks and plan ahead. Fruits and vegetables are always good, and fish with high levels of omega-3 fatty acids have been shown to reduce the symptoms of stress. A tuna sandwich really is brain food.
+                    Laugh it off. Laughter releases endorphins that improve mood and decrease levels of the stress-causing hormones cortisol and adrenaline. Laughing tricks your nervous system into making you happy.
+                    Our suggestion: watch some classic Monty Python skits like The Ministry of Silly Walks. Those Brits are so hilarious, you'll soon be cracking up, rather than cracking up."
+
+                    
+                        TextColor="White" 
+                            HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                                     BackgroundColor="Gray"
+                                         Margin="15"
+                                     VerticalTextAlignment="Center"
+                                HorizontalTextAlignment="Center"
+                            LineHeight="2"
+                        FontSize="25"
+                        
+                       />
+                    
+                </ScrollView>
+            
+                
+
+            
+            <Button 
+             x:Name="Proceed"
+                Text="Agree to start Session" 
+                    TextColor="DarkRed"
+                        BackgroundColor="Cyan"
+                            VerticalOptions="CenterAndExpand"
+                                HorizontalOptions="CenterAndExpand"
+                            HeightRequest="70" 
+                        FontSize="22" 
+                    BorderRadius = "10"
+                
+             Clicked="SessionStart"   
+                 
+                />
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

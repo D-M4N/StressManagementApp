@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SimpleApp.Coincidance"
+             BackgroundImageSource="city.jpg"
+             >
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label 
+                
+                Text="LIKE TO DANCE !"
+                    FontSize="50"
+                        TextColor="Yellow"
+                    VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" 
+                   
+                   
+                   
+                   />
+
+            
+
+            <ImageButton 
+            
+            Source="letsDance.jpg"
+                HorizontalOptions="CenterAndExpand"
+            VerticalOptions="Start"
+            Clicked="WebDance"
+               
+               />
+            <ImageButton 
+                
+                
+                Source="Trylogo.png"
+                    HorizontalOptions="Center"
+                         VerticalOptions="Start" 
+                    HeightRequest="100"             
+                Clicked="WebDance"
+                
+            />
+
+                <ScrollView 
+                
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                
+                >
+
+                    <Label 
+                    
+                    Text="To see someone dance is to witness release, self-expression, and often, joy. For many of those reasons, many therapists who treat anxiety are finding that dance has the potential to act as an effective treatment for anxiety. Dance can be both an outlet for creativity and a method of accessing a peaceful state of mind. How Dance Movement Therapy Works
+                            Dance as anxiety treatment is known as dance movement therapy. 
+                           Dance movement therapy was even found to be useful for those dealing with substance dependence. In fact, creative therapies have been shown to shift an individual's focus and regulate and control overwhelming emotions and thoughts—especially for those struggling with a chemical dependency. 8 Instead of knee-jerk self-soothing (e.g. running to alcohol to cope), dance therapy helps people become more aware of their bodies and emotions. 
+                            Is Dance Movement Therapy Right for You?
+                           Whether performed alone or in a room full of people, dance is a beautiful, creative action that cultures embrace worldwide. As both a creative art and a form of body psychotherapy, dancing can also be used as a method for treating anxiety providing evidence to the old saying: you can dance your cares away." 
+                        TextColor="Black" 
+                            HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                                     Margin="20"
+                                     VerticalTextAlignment="Center"
+                                HorizontalTextAlignment="Center"
+                            LineHeight="1"
+                        FontSize="30"
+                        
+                       />
+
+                </ScrollView>
+
+
+
+                <ImageButton 
+                
+                
+                Source="likeUs.jpg"
+                    HorizontalOptions="Start"
+                         VerticalOptions="End" 
+                    HeightRequest="50"             
+               Clicked="Like" 
+                
+            />
+
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

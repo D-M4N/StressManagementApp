@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SimpleApp.dadJokes"
+             BackgroundImageSource="dadBackDrop.jpg"
+             >
+    <ContentPage.Content>
+        
+        <StackLayout>
+            
+            <Label 
+                
+                Text="DAD JOKES !"
+                    TextColor="Blue"
+                        VerticalOptions="Center" 
+                    HorizontalOptions="Center" 
+                FontSize="50"
+                
+            
+            />
+
+            <Label 
+            x:Name="GagLabel" 
+                HeightRequest="200"
+                    HorizontalTextAlignment="Center"
+                        VerticalOptions="CenterAndExpand"
+                        TextColor="White"
+                    FontSize="30"
+                VerticalTextAlignment="Center"
+            Margin="30"
+                
+      
+            />
+
+            <Button
+            
+             x:Name="GagGen" 
+                Text="Get Joke" 
+                    BorderColor="Chocolate"  
+                        TextColor="Black"
+                            BackgroundColor="Accent"
+                                HeightRequest="60" 
+                            FontSize="30"             
+                        BorderRadius = "2"
+                    BorderWidth = "3"
+                HorizontalOptions="Center"
+               Clicked="GagButton_Clicked"
+               
+             
+             
+                />
+
+            <ImageButton 
+                
+                
+                Source="likeUs.jpg"
+                    HorizontalOptions="Start"
+                         VerticalOptions="End" 
+                    HeightRequest="50"             
+               Clicked="Like" 
+                
+            />
+        </StackLayout>
+        
+    </ContentPage.Content>
+    
+</ContentPage>
