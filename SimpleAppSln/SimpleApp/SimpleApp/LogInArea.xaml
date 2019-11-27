@@ -94,6 +94,7 @@
                 FontSize="20"
                 BackgroundColor="Transparent"
                 TextColor="Blue"
+                Clicked="OnLogin_Clicked"
                 
                 
             />

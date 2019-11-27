@@ -212,5 +212,8 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\LogInBackDrop.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\LoginRegisterBackDrop.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

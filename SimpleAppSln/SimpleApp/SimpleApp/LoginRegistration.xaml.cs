@@ -10,16 +10,13 @@ using Xamarin.Forms.Xaml;
 namespace SimpleApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LogInArea : ContentPage
+    public partial class LoginRegistration : ContentPage
     {
-        public LogInArea()
+        public LoginRegistration()
         {
             InitializeComponent();
         }
 
-        private void OnLogin_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new LoginRegistration());
-        }
+        
     }
 }
