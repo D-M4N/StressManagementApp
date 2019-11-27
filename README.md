@@ -1,4 +1,4 @@
-# StressManagementApp
+# Stress Management App
 
 Project Theme
 
