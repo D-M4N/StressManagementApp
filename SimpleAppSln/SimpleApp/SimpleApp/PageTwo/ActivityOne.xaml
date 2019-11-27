@@ -64,7 +64,7 @@
             
             <Button 
              x:Name="Proceed"
-                Text="Agree to start Session" 
+                Text="Start Session" 
                     TextColor="DarkRed"
                         BackgroundColor="Cyan"
                             VerticalOptions="CenterAndExpand"
@@ -73,7 +73,7 @@
                         FontSize="22" 
                     BorderRadius = "10"
                 
-             Clicked="SessionStart"   
+             Clicked="LoginButton_Clicked"   
                  
                 />
 

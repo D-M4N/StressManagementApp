@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SimpleApp.LogInArea"
+             BackgroundImageSource="LogInBackDrop.png"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image
+                
+                Source="loginLogo.png" 
+                    Margin="20"
+                        VerticalOptions="Start"
+                    HorizontalOptions="Start"
+                HeightRequest="100"
+                
+            ></Image>
+
+            <Label 
+                
+                Text="UserName" 
+                    FontSize="25"
+                        TextColor="Black"
+                        Margin="12"
+                    VerticalOptions="Start"
+                HorizontalOptions="Center"
+                
+            />
+
+            <Entry 
+                
+                Text="{Binding UserName}"
+                    FontSize="20"
+                        TextColor="White"
+                    Margin="12"
+                VerticalOptions="Start"
+                
+               
+                
+                
+            />
+
+            <Label 
+                
+                Text="PassWord" 
+                    FontSize="25"
+                         TextColor="Black"
+                         Margin="12"
+                    VerticalOptions="Start"
+                HorizontalOptions="Center"
+                
+            />
+
+            <Entry 
+                
+                Text="{Binding PassWord}"
+                  FontSize="20"
+                       TextColor="White"
+                   Margin="12"
+                VerticalOptions="Start"
+                
+            />
+
+            
+
+            <Button 
+                
+                Text="Login" 
+                FontSize="20"
+                FontAttributes="Bold"
+                Clicked="OnLogin_Clicked"
+                
+                
+            />
+
+            <Button 
+                
+                Text="FORGOT PASS WORD ?" 
+                BackgroundColor="Transparent"
+                TextColor="Red"
+                FontSize="18"
+                HorizontalOptions="Center"
+                
+            />
+
+            <Button 
+                
+                Text="Not Registered ? Sign up"
+                HorizontalOptions="Center"
+                FontSize="20"
+                BackgroundColor="Transparent"
+                TextColor="Blue"
+                
+                
+            />
+
+            
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
