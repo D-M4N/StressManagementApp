@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimpleApp.Registration;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +17,30 @@ namespace SimpleApp
         {
             InitializeComponent();
         }
+        /*
+                protected override void OnAppearing()
+                {
+                    base.OnAppearing();
 
-        
+                    var infotable = new InformationTable();
+
+                    BindingContext = infotable;
+                }
+
+        */
+
+        private async void ConfirmButton_Clicked(object sender, EventArgs e)
+        {
+            var informationtTable = (InformationTable)BindingContext;
+            await App.Database.SaveItemAsync(informationtTable);
+        }
+
+        private void LoginButton_Clicked(object sender, EventArgs e)
+        {
+                   
+            Navigation.PushAsync(new LogInArea());
+
+        }
+
     }
 }

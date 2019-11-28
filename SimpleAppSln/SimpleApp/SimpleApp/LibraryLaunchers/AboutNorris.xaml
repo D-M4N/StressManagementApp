@@ -9,41 +9,64 @@
              >
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout>
+            <StackLayout>
 
 
-            <Image 
+                <Image 
             
-            Source="chuckFacts.jpg"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="Start"
-            HeightRequest="400"
+                Source="chuckFacts.jpg"
+                    HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="Start"
+                    HeightRequest="400"
+                Aspect="Fill"
+                
+               
+                />
+
+                <Image 
+            
+                Source="chuckFactsTwo.jpg"
+                    HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="Start"
+                    HeightRequest="400"
+                Aspect="Fill"
+                
+               
+               />
+            
+                <Image 
+            
+                Source="chuckFactsThree.jpg"
+                    HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="Start"
+                    HeightRequest="400"
                 Aspect="Fill"
                 
                
                />
 
                 <Image 
-            
-            Source="chuckFactsTwo.jpg"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="Start"
-            HeightRequest="400"
-                Aspect="Fill"
                 
-               
-               />
+                Source="Knight.png"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                HeightRequest="100"
+              
             
-                <Image 
-            
-            Source="chuckFactsThree.jpg"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="Start"
-            HeightRequest="400"
-                Aspect="Fill"
                 
-               
-               />
+                />
+                
+                <Label 
+                    
+                    Text="Created by D-M4N FOUNDATION."
+                        TextColor="Red" 
+                            HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                            VerticalTextAlignment="Center"
+                        HorizontalTextAlignment="Center"
+                    FontSize="20"
+                        
+                />
 
 
 

@@ -9,44 +9,43 @@
              >
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout>
-            <Label 
+            <StackLayout>
                 
-                Text="LIKE TO DANCE !"
-                    FontSize="50"
-                        TextColor="Yellow"
-                    VerticalOptions="Center" 
-                HorizontalOptions="CenterAndExpand" 
-                   
-                   
-                   
-                   />
+                 <Label 
+                
+                    Text="LIKE TO DANCE !"
+                        FontSize="50"
+                            TextColor="Yellow"
+                        VerticalOptions="Center" 
+                    HorizontalOptions="CenterAndExpand" 
+                 
+                 />
 
             
 
-            <ImageButton 
+                 <ImageButton 
             
-            Source="letsDance.jpg"
-                HorizontalOptions="CenterAndExpand"
-            VerticalOptions="Start"
-            Clicked="WebDance"
+                    Source="letsDance.jpg"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="Start"
+                    Clicked="WebDance"
                
-               />
-            <ImageButton 
+                  />
                 
+                <ImageButton 
                 
-                Source="Trylogo.png"
+                 Source="Trylogo.png"
                     HorizontalOptions="Center"
                          VerticalOptions="Start" 
                     HeightRequest="100"             
-                Clicked="WebDance"
+                 Clicked="WebDance"
                 
-            />
+                 />
 
                 <ScrollView 
                 
-                VerticalOptions="Center"
-                HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center"
                 
                 >
 
@@ -81,10 +80,33 @@
                     HeightRequest="50"             
                Clicked="Like" 
                 
-            />
+                 />
+
+                <Image 
+                
+                Source="Knight.png"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                HeightRequest="100"
+              
+            
+                
+                />
+
+                <Label 
+                    
+                    Text="Created by D-M4N FOUNDATION."
+                        TextColor="Red" 
+                            HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                            VerticalTextAlignment="Center"
+                        HorizontalTextAlignment="Center"
+                    FontSize="20"
+                        
+                />
 
 
-        </StackLayout>
+            </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

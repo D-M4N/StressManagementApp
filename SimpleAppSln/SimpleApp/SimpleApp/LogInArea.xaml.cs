@@ -19,6 +19,11 @@ namespace SimpleApp
 
         private void OnLogin_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new Contents());
+        }
+
+        private void OnSignUp_Clicked(object sender, EventArgs e)
+        {
             Navigation.PushAsync(new LoginRegistration());
         }
     }

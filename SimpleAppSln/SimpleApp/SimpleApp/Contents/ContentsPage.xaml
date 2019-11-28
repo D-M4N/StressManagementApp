@@ -9,60 +9,68 @@
              >
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout>
+            <StackLayout>
 
-            <Label 
+                <Image
+                  Source="Greetings.png"  
+                    HeightRequest="230"
+                    
+                
+                ></Image>
+
+                <Label 
                 
                 Text="Let Stress free begin !"
                     FontSize="35"
                         TextColor="AntiqueWhite"
                     VerticalOptions="Center" 
                 HorizontalOptions="CenterAndExpand" 
-            />
+                 />
 
-            <Label 
+                <Label 
                 
                 Text="SOME COMIC RELIEF "
                     FontSize="24"
                         TextColor="Red"
                     VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" 
-            />
+                 />
 
-             <ImageButton 
+                 <ImageButton 
                 
                 
-                Source="chuckJokes.jpg"
+                  Source="chuckJokes.jpg"
                     HorizontalOptions="Start"
                          VerticalOptions="StartAndExpand"
                          Margin="20"
                     HeightRequest="150"
-                Clicked="Chuck" 
+                  Clicked="Chuck" 
                          
                          
-            />
+                    />
 
-            <ImageButton 
+                 <ImageButton 
                 
                 
-                Source="dadJokes.jpg"
+                 Source="dadJokes.jpg"
                     HorizontalOptions="End"
                          VerticalOptions="StartAndExpand"
                          Margin="20"
                     HeightRequest="150"
-                Clicked="Dad" 
+                 Clicked="Dad" 
                          
                          
-            />
+                 />
 
-            <Label 
+                 <Label 
                 
-                Text="STRESS ELEVIATION TACTICS "
+                  Text="STRESS ELEVIATION TACTICS "
                     FontSize="25"
                         TextColor="DarkBlue"
                     VerticalOptions="StartAndExpand" 
-                HorizontalOptions="CenterAndExpand" 
-            />
+                  HorizontalOptions="CenterAndExpand" 
+                  
+                 />
 
                 <ImageButton 
                 
@@ -75,7 +83,7 @@
                 Clicked="Dancing" 
                          
                          
-            />
+                />
 
                 <ImageButton 
                 
@@ -88,8 +96,32 @@
                 Clicked="Angry" 
                          
                          
-            />
- </StackLayout>
+                />
+
+                <Image 
+                
+                Source="Knight.png"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                HeightRequest="100"
+              
+            
+                
+                />
+                <Label 
+                    
+                    Text="Created by D-M4N FOUNDATION."
+                        TextColor="Red" 
+                            HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                            VerticalTextAlignment="Center"
+                        HorizontalTextAlignment="Center"
+                    FontSize="20"
+                        
+                />
+
+
+            </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

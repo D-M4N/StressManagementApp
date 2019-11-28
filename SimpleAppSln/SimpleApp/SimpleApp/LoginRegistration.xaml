@@ -8,10 +8,114 @@
              BackgroundImageSource="LoginRegisterBackDrop.png"
              >
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+
+                <Image
+                
+                    Source="SignUpHere.png" 
+                        Margin="40"
+                        VerticalOptions="Start"
+                    HeightRequest="100"
+                    
+                ></Image>
+
+                <Label 
+                
+                Text="UserName" 
+                 FontSize="20"
+                    TextColor="White"
+                 Margin="12"
+                VerticalOptions="Start"
+                
+                 />
+
+                <Entry 
+                
+                Text="{Binding UserName}"
+                    FontSize="20"
+                        TextColor="White"
+                    Margin="12"
+                VerticalOptions="Start"
+               
+                
+                
+                 />
+
+                <Label 
+                
+                Text="PassWord" 
+                    FontSize="20"
+                         TextColor="White"
+                    Margin="12"
+                VerticalOptions="Start"
+                
+                 />
+
+                <Entry 
+                
+                Text="{Binding PassWord}"
+                  FontSize="20"
+                       TextColor="White"
+                   Margin="12"
+                VerticalOptions="Start"
+                
+                 />
+
+                <Label 
+                
+                Text="PassWordConfirm" 
+                    FontSize="20"
+                         TextColor="White"
+                    Margin="12"
+                VerticalOptions="Start"
+                
+                 />
+
+                <Entry 
+                
+                Text="{Binding PassWordConfirm}"
+                  FontSize="20"
+                       TextColor="White"
+                   Margin="12"
+                VerticalOptions="Start"
+                
+                 />
+
+                <Label 
+                
+                Text="Email" 
+                  FontSize="20"
+                       TextColor="White"
+                  Margin="12"
+                VerticalOptions="Start"
+                
+                 />
+                
+                <Entry 
+                
+                Text="{Binding Email}"
+                  FontSize="20"
+                      TextColor="White"
+                  Margin="12"
+                VerticalOptions="Start"
+                />
+                
+                <Button 
+                
+                Text="Confirm" 
+                Clicked="ConfirmButton_Clicked"
+                
+                />
+
+                <Button 
+                
+                Text="Login" 
+                Clicked="LoginButton_Clicked"
+                
+                />
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

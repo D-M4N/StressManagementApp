@@ -63,6 +63,30 @@
                Clicked="Like" 
                 
             />
+
+            <Image 
+                
+                Source="Knight.png"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                HeightRequest="100"
+              
+            
+                
+             />
+
+            <Label 
+                    
+                    Text="Created by D-M4N FOUNDATION."
+                        TextColor="Red" 
+                            HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                            VerticalTextAlignment="Center"
+                        HorizontalTextAlignment="Center"
+                    FontSize="20"
+                        
+             />
+            
         </StackLayout>
         
     </ContentPage.Content>

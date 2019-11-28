@@ -75,6 +75,7 @@
                 Clicked="OnLogin_Clicked"
                 
                 
+                
             />
 
             <Button 
@@ -84,17 +85,18 @@
                 TextColor="Red"
                 FontSize="18"
                 HorizontalOptions="Center"
-                
+                FontAttributes="Bold"
             />
 
             <Button 
                 
                 Text="Not Registered ? Sign up"
                 HorizontalOptions="Center"
-                FontSize="20"
+                FontSize="25"
                 BackgroundColor="Transparent"
-                TextColor="Blue"
-                Clicked="OnLogin_Clicked"
+                TextColor="Yellow"
+                Clicked="OnSignUp_Clicked"
+                FontAttributes="Bold"
                 
                 
             />

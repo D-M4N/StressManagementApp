@@ -9,11 +9,11 @@
              >
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout>
+            <StackLayout>
                 
                                     
                                 
-            <Label 
+                <Label 
                 
                 Text="WELCOME TO ANGER MANAGEMENT !"
                     FontSize="30"
@@ -22,34 +22,34 @@
                      VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" 
                    
-            />
+                />
 
             
 
-            <ImageButton 
+                <ImageButton 
             
-            Source="angerIssues.jpg"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand"
-            Clicked="WebAnger"
+                Source="angerIssues.jpg"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                Clicked="WebAnger"
                
-               />
+                />
 
-            <Button 
+                <Button 
             
-            x:Name="Anger" 
-                Text="Click If This Is You ?" 
-                    TextColor="Red"
-                        BackgroundColor="Orange"
-                             VerticalOptions="CenterAndExpand"
-                                HorizontalOptions="CenterAndExpand"
-                             HeightRequest="50" 
-                        FontSize="23"             
-                     Clicked="WebAnger"
-                 BorderRadius = "50"
-            BorderWidth = "12"
+                x:Name="Anger" 
+                    Text="Click If This Is You ?" 
+                        TextColor="Red"
+                            BackgroundColor="Orange"
+                                 VerticalOptions="CenterAndExpand"
+                                    HorizontalOptions="CenterAndExpand"
+                                 HeightRequest="50" 
+                            FontSize="23"             
+                         Clicked="WebAnger"
+                     BorderRadius = "50"
+                BorderWidth = "12"
             
-            />
+                />
 
                 <ScrollView 
                 
@@ -89,7 +89,7 @@
                             HorizontalTextAlignment="Center"
                     FontSize="30"
                         
-                       />
+                />
 
                 <Button 
             
@@ -119,14 +119,37 @@
                     HorizontalOptions="Start"
                          VerticalOptions="End" 
                     HeightRequest="50"             
-               Clicked="Like" 
+                Clicked="Like" 
                 
-            />
+                 />
+
+                <Image 
+                
+                Source="Knight.png"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                HeightRequest="100"
+              
             
-            
-            
-            
-        </StackLayout>
+                
+                />
+
+                <Label 
+                    
+                    Text="Created by D-M4N FOUNDATION."
+                        TextColor="Red" 
+                            HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                            VerticalTextAlignment="Center"
+                        HorizontalTextAlignment="Center"
+                    FontSize="20"
+                        
+                />
+
+
+
+
+            </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
