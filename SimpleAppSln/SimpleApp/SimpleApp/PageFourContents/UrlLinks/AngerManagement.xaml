@@ -10,20 +10,19 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                
-                                    
-                                
-                <Label 
-                
-                Text="WELCOME TO ANGER MANAGEMENT !"
-                    FontSize="30"
-                         HorizontalTextAlignment="Center"
-                         TextColor="DarkCyan"
-                     VerticalOptions="StartAndExpand" 
-                HorizontalOptions="CenterAndExpand" 
-                   
-                />
 
+
+
+                <Image
+                    
+                    Source="AngerManagementTitle.png" 
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Start"
+                    HeightRequest="130"
+                    
+                ></Image>
+                
+                <Label></Label>
             
 
                 <ImageButton 

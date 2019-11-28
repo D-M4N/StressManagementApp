@@ -14,51 +14,47 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Contents\ContentsPage.xaml.cs">
+    <Compile Update="PageFourContents\ContentsPage.xaml.cs">
       <DependentUpon>ContentsPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="LibraryLaunchers\AboutNorris.xaml">
+    <EmbeddedResource Update="PageFourContents\JokesLibraryLaunchers\AboutNorris.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="LogInArea.xaml">
+    <EmbeddedResource Update="PageThreeLoginZone\LogInArea.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="LoginRegistration.xaml">
+    <EmbeddedResource Update="PageThreeLoginZone\LoginRegistration.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="PageTwo\ActivityOne.xaml">
+    <EmbeddedResource Update="PageTwoAbout\ActivityOne.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Registration\RegistrationInfo.xaml">
+    <EmbeddedResource Update="PageFiveRegistration\RegistrationInfo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Registration\RegistrationPage.xaml">
+    <EmbeddedResource Update="PageFiveRegistration\RegistrationPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="UrlLinks\AngerManagement.xaml">
+    <EmbeddedResource Update="PageFourContents\UrlLinks\AngerManagement.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="LibraryLaunchers\chuckJokes.xaml">
+    <EmbeddedResource Update="PageFourContents\JokesLibraryLaunchers\chuckJokes.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="UrlLinks\Coincidance.xaml">
+    <EmbeddedResource Update="PageFourContents\UrlLinks\Coincidance.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Contents\ContentsPage.xaml">
+    <EmbeddedResource Update="PageFourContents\ContentsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="LibraryLaunchers\dadJokes.xaml">
+    <EmbeddedResource Update="PageFourContents\JokesLibraryLaunchers\dadJokes.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Registration\LikeUsPlease.xaml">
+    <EmbeddedResource Update="PageFiveRegistration\LikeUsPlease.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="LoginZone\" />
   </ItemGroup>
 </Project>

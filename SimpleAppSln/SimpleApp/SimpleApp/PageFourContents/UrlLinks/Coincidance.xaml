@@ -10,16 +10,14 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
+
+                <Image
                 
-                 <Label 
-                
-                    Text="LIKE TO DANCE !"
-                        FontSize="50"
-                            TextColor="Yellow"
-                        VerticalOptions="Center" 
-                    HorizontalOptions="CenterAndExpand" 
-                 
-                 />
+                    Source="DanceTitle.png"
+                    HeightRequest="150"
+                    
+                    
+                ></Image>
 
             
 

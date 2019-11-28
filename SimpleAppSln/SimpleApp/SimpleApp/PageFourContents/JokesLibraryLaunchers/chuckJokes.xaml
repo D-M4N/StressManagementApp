@@ -13,16 +13,14 @@
             <StackLayout>
 
 
-                <Label 
+                <Image
                 
-                Text="CHUCK JOKES !"
-                TextColor="White"
-                     VerticalOptions="Center" 
-                     HorizontalOptions="Center" 
-                FontSize="50"
-                
-            
-            />
+                    Source="ChucknorrisLogoTitle.png"
+                    HeightRequest="150"
+                    Aspect="Fill"
+                    
+                    
+                ></Image>
 
                 <Image 
                 

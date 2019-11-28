@@ -10,17 +10,15 @@
     <ContentPage.Content>
         
         <StackLayout>
-            
-            <Label 
+
+            <Image
                 
-                Text="DAD JOKES !"
-                    TextColor="Blue"
-                        VerticalOptions="Center" 
-                    HorizontalOptions="Center" 
-                FontSize="50"
-                
-            
-            />
+                    Source="DadJokeTitle.png"
+                    HeightRequest="100"
+                Aspect="AspectFill"
+                    
+                    
+                ></Image>
 
             <Label 
             x:Name="GagLabel" 
