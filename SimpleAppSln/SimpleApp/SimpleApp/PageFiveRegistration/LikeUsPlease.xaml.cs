@@ -42,25 +42,7 @@ namespace SimpleApp
         }
 
         private async void HQ_Button(object sender, EventArgs e)
-
-
-
-        // public async Task NavigateToBuilding25()
         {
-            /*
-             * 
-            var placemark = new Placemark
-            {
-                CountryName = "South Africa",
-                AdminArea = "SA",
-                Thoroughfare = "Robben Island, 7400",
-                Locality = "Robben Island"
-            };
-            var options = new MapLaunchOptions { Name = "The Cedars Avenue 28" };
-
-            await Map.OpenAsync(placemark, options);
-
-             */
 
             var current = Connectivity.NetworkAccess;
 

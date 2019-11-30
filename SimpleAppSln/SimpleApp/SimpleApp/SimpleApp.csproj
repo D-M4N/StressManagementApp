@@ -20,7 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="AngerSteps.xaml">
+    <EmbeddedResource Update="PageThreeLoginZone\ForgetPassWordScreen.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PageFourContents\UrlLinks\AngerSteps.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="PageFourContents\JokesLibraryLaunchers\AboutNorris.xaml">
