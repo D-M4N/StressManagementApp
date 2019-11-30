@@ -6,6 +6,9 @@
              mc:Ignorable="d"
              x:Class="SimpleApp.MainPage"
             BackgroundImage="welcome.jpg"
+             Title="JUST CHILLIN APP"
+             
+             
              >
 
     <StackLayout>
@@ -46,23 +49,30 @@
             BorderWidth = "12"
             
         />
+
+        <Image 
+                
+                Source="Knight.png"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                HeightRequest="100"
+              
             
-            
+                
+                />
+        <Label 
+                    
+                    Text="Created by D-M4N FOUNDATION."
+                        TextColor="Red" 
+                            HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                            VerticalTextAlignment="Center"
+                        HorizontalTextAlignment="Center"
+                    FontSize="20"
+                        
+         />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </StackLayout>
+</StackLayout>
    
 
 </ContentPage>

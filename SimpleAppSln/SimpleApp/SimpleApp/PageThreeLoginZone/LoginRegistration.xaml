@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="SimpleApp.LoginRegistration"
              BackgroundImageSource="LoginRegisterBackDrop.png"
+             Title="SIGN UP"
              >
     <ContentPage.Content>
         <ScrollView>

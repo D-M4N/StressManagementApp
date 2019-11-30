@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="SimpleApp.chuckJokes"
              BackgroundImageSource="chuckBackDrop.jpg"
+             Title="CHUCK NORRIS JOKES"
              
              >
     <ContentPage.Content>
@@ -16,7 +17,7 @@
                 <Image
                 
                     Source="ChucknorrisLogoTitle.png"
-                    HeightRequest="150"
+                          HeightRequest="150"
                     Aspect="Fill"
                     
                     

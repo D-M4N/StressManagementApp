@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SimpleApp.AngerSteps"
+             Title="ANGER MANAGEMENT STEPS"
+             BackgroundColor="LightGray"
+             >
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Image
+                    
+                    Source="ControllingAngerTitle.jpg" 
+                        HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="Start"
+                        HeightRequest="300"
+                    Aspect="Fill"
+                    
+                ></Image>
+
+                <Grid VerticalOptions="FillAndExpand" Margin="10">
+
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="Auto" />
+
+                        <RowDefinition Height="Auto" />
+
+                        <RowDefinition Height="Auto" />
+
+                        <RowDefinition Height="Auto" />
+
+                        <RowDefinition Height="Auto" />
+
+                        <RowDefinition Height="Auto" />
+
+                    </Grid.RowDefinitions>
+
+                     <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="*" />
+
+                        <ColumnDefinition Width="*" />
+
+                    </Grid.ColumnDefinitions>
+              
+                        
+                    <Image
+                    
+                            Source="AngerStepOne.jpg" 
+                                VerticalOptions="Start"
+                                    Aspect="Fill"
+                                Grid.Column="0"
+                            Grid.Row="0"
+                            
+                   ></Image>
+                        
+                    <Label 
+                        
+                           Text="Step 1: Become Self-Aware
+                                Your first step is to recognize that you're about to lose your temper. Go back to the signs and symptoms of anger and recognize how they are beginning to manifest in your life. The earlier you are able to identify these changes, the more likely you are to ward off these feelings and choose a different and more appropriate response.
+                                    It's also important you tune-in to the conditions that triggered your anger. You're about to lose your temper for a reason. What specifically within your environment, or within yourself stirred your emotions the wrong way?
+                                         Finally, acknowledge that you have a weakness. There are certain limitations within your personality that are causing you to feel and respond in a certain way. Acknowledging these habits and tendencies will allow you to begin the process of change."
+                                                Grid.Column="1"
+                                                Grid.Row="0"
+                                         FontSize="20"
+                                    TextColor="Black"
+                                FontAttributes="Bold"
+                           HorizontalOptions="Center" 
+                           
+                     />
+
+                    <Image
+                    
+                            Source="AngerStepTwo.jpg" 
+                                VerticalOptions="Start"
+                                    Aspect="Fill"
+                                Grid.Column="1"
+                            Grid.Row="1"
+                            
+                   ></Image>
+
+                    <Label 
+                        
+                           Text="Step 2: Recognize Other Options
+                                Once you are clear about how you're feeling and have successfully acknowledged that there is a better way to respond to this situation, it's now important to put some space between you and the things that triggered your anger. As such, it's critical that you remove yourself from the situation that is causing you discomfort, agitation, and/or frustration. Remove yourself physically by walking away and taking some time to clear your head."
+                                    Grid.Column="0"
+                                         Grid.Row="1"
+                                         FontSize="20"
+                                    TextColor="Black"
+                                FontAttributes="Bold"
+                           HorizontalOptions="Center" 
+                           
+                     />
+                    
+                    <Image
+                    
+                            Source="AngerStepThree.jpg" 
+                                VerticalOptions="Start"
+                                    Aspect="Fill"
+                                Grid.Column="0"
+                            Grid.Row="2"
+                            
+                   ></Image>
+
+                    <Label 
+                        
+                           Text="Step 3: Keep Yourself Calm and Collected
+                                Your next step is to calm yourself down emotionally. You can successfully calm yourself down by listening to relaxing music, by using affirmations, by counting backward from 10, by breathing deeply, by visualizing a calming scene within your imagination, etc. There are plenty of ways to calm down. Through trial and error, you will determine what works best in your situation.
+                                    Once you are calm and centered, remind yourself about your goals in this particular situation: What were you hoping to gain? Also, have a think about your most important values. These are the things that you are working toward. And these are the things that you might purposefully sabotage if you lose your cool."
+                                        Grid.Column="1"
+                                            Grid.Row="2"
+                                        FontSize="20"
+                                    TextColor="Black"
+                                FontAttributes="Bold"
+                           HorizontalOptions="Center" 
+                           
+                     />
+
+                    <Image
+                    
+                            Source="AngerStepFour.jpg" 
+                                VerticalOptions="Start"
+                                    Aspect="Fill"
+                                Grid.Column="1"
+                            Grid.Row="3"
+                            
+                   ></Image>
+
+                    <Label 
+                        
+                           Text="Step 4: Evaluate the Situation
+                                Now comes time to knuckle down and evaluate the situation and evaluate your internal environment (your mindset).
+                                    Have a think about your personal standards and the expectations you are bringing into this situation. Maybe one or more of your standards have not been met? Maybe your expectations are unrealistic? Or just maybe one of your rules has been broken?
+                                        The purpose of this evaluation is to train yourself to proactively respond to events, people, and circumstances in an effective and rational manner. You are no longer going to allow your emotions to get the best of you. Instead, you will look at the situation from a variety of angles and perspectives, and then pick the most appropriate and helpful response moving forward.
+                                            While you're moving through this evaluation process, take into consideration that you might have misinterpreted people, events or circumstances. Consider that you might not be seeing the full picture, and accept the fact that you might actually be wrong and could very well have made a mistake. Be open to the possibilities, and above all else, be truthful with your responses."
+                                                Grid.Column="0"
+                                            Grid.Row="3"
+                                        FontSize="20"
+                                    TextColor="Black"
+                                FontAttributes="Bold"
+                           HorizontalOptions="Center" 
+                           
+                     />
+
+                    <Image
+                    
+                            Source="AngerStepFour.jpg" 
+                                VerticalOptions="Start"
+                                    Aspect="Fill"
+                                Grid.Column="1"
+                            Grid.Row="3"
+                            
+                   ></Image>
+
+                    <Label 
+                        
+                           Text="Step 4: Evaluate the Situation
+                                Now comes time to knuckle down and evaluate the situation and evaluate your internal environment (your mindset).
+                                    Have a think about your personal standards and the expectations you are bringing into this situation. Maybe one or more of your standards have not been met? Maybe your expectations are unrealistic? Or just maybe one of your rules has been broken?
+                                        The purpose of this evaluation is to train yourself to proactively respond to events, people, and circumstances in an effective and rational manner. You are no longer going to allow your emotions to get the best of you. Instead, you will look at the situation from a variety of angles and perspectives, and then pick the most appropriate and helpful response moving forward.
+                                            While you're moving through this evaluation process, take into consideration that you might have misinterpreted people, events or circumstances. Consider that you might not be seeing the full picture, and accept the fact that you might actually be wrong and could very well have made a mistake. Be open to the possibilities, and above all else, be truthful with your responses."
+                                                Grid.Column="0"
+                                            Grid.Row="3"
+                                        FontSize="20"
+                                    TextColor="Black"
+                                FontAttributes="Bold"
+                           HorizontalOptions="Center" 
+                           
+                     />
+
+                    <Image
+                    
+                            Source="AngerStepFive.jpg" 
+                                VerticalOptions="Start"
+                                    Aspect="Fill"
+                                Grid.Column="0"
+                            Grid.Row="4"
+                            
+                   ></Image>
+
+                    <Label 
+                        
+                           Text="Step 5: Choose Appropriate Response
+                                Your next task is to take everything you have worked through so far into consideration, and then select the most appropriate and helpful response moving forward. The response you choose must have long-term payoffs and should support the greater good of all concerned. And this could very well mean that you still choose to project your anger if you feel that this is the most appropriate response in this situation. However, this will no longer be an uncontrolled form of anger. It will instead be a form of constructive anger that can help you get what you want most effectively.
+                                    It's also important to recognize the options you have in any situation where you are feeling somewhat angry. You can, for instance, release the anger and move on without getting emotionally wrapped up in the situation. Or you can instead choose to avoid the situation altogether. Alternately you can choose to control your anger in a productive way to help influence the outcome of the situation. Or finally, you can choose to redirect your anger onto other things. This will help you release your pent-up emotions, but will not affect the situation in a negative way. Each of these four options can potentially help you to work through the situation successfully without creating emotional mayhem."
+                                        Grid.Column="1"
+                                            Grid.Row="4"
+                                        FontSize="20"
+                                    TextColor="Black"
+                                FontAttributes="Bold"
+                           HorizontalOptions="Center" 
+                           
+                     />
+
+                    <Image
+                    
+                            Source="AngerStepSix.jpg" 
+                                VerticalOptions="Start"
+                                    Aspect="Fill"
+                                Grid.Column="1"
+                            Grid.Row="5"
+                            
+                   ></Image>
+
+                    <Label 
+                        
+                           Text="Step 6: Evaluate Your Response
+                                After things have settled down and the moment has passed, take time to evaluate how you responded to the situation and the impact that this had on you, on others, and on the events and circumstances, you were dealing with. "
+                                    Grid.Column="0"
+                                        Grid.Row="5"
+                                        FontSize="20"
+                                    TextColor="Black"
+                                FontAttributes="Bold"
+                           HorizontalOptions="Center" 
+                           
+                     />
+
+                    
+
+                </Grid>
+
+                <Image 
+                
+                        Source="Knight.png"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                        HeightRequest="100"
+              
+            
+                
+                    />
+
+                <Label 
+                    
+                        Text="Created by D-M4N FOUNDATION."
+                            TextColor="Red" 
+                                HorizontalOptions="Center"
+                                     VerticalOptions="Center"
+                                VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Center"
+                        FontSize="20"
+                        
+                    />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

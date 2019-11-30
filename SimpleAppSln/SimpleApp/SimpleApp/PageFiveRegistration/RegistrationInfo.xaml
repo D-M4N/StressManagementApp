@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="SimpleApp.Registration.RegistrationInfo"
              BackgroundImageSource="WelcomeToTheTeamEdit.jpg"
+             Title="WELCOME TO THE TEAM"
              >
     <ContentPage.Content>
         <StackLayout>

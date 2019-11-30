@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="SimpleApp.dadJokes"
              BackgroundImageSource="dadBackDrop.jpg"
+             Title="DAD JOKES"
              >
     <ContentPage.Content>
         
@@ -13,25 +14,25 @@
 
             <Image
                 
-                    Source="DadJokeTitle.png"
+                Source="DadJokeTitle.png"
                     HeightRequest="100"
-                Aspect="AspectFill"
-                    
-                    
-                ></Image>
+                    Aspect="AspectFill"
+                VerticalOptions="Start"
+            
+            ></Image>
 
             <Label 
-            x:Name="GagLabel" 
-                HeightRequest="200"
-                    HorizontalTextAlignment="Center"
-                        VerticalOptions="CenterAndExpand"
-                        TextColor="White"
-                    FontSize="30"
-                VerticalTextAlignment="Center"
-            Margin="30"
                 
-      
-            />
+                x:Name="GagLabel" 
+                    HeightRequest="110"
+                        HorizontalTextAlignment="Center"
+                            VerticalOptions="CenterAndExpand"
+                            TextColor="White"
+                        FontSize="25"
+                    VerticalTextAlignment="Center"
+                Margin="1"
+            
+                />
 
             <Button
             
@@ -47,13 +48,10 @@
                 HorizontalOptions="Center"
                Clicked="GagButton_Clicked"
                
-             
-             
-                />
+            />
 
             <ImageButton 
-                
-                
+               
                 Source="likeUs.jpg"
                     HorizontalOptions="Start"
                          VerticalOptions="End" 
@@ -69,8 +67,6 @@
                     HorizontalOptions="Center"
                 HeightRequest="100"
               
-            
-                
              />
 
             <Label 

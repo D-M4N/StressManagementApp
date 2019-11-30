@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="SimpleApp.LogInArea"
              BackgroundImageSource="LogInBackDrop.png"
+             Title="LOGIN AREA"
              >
     <ContentPage.Content>
         <StackLayout>

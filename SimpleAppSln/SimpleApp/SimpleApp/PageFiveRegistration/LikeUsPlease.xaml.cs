@@ -18,13 +18,22 @@ namespace SimpleApp
         public LikeUsPlease()
         {
             InitializeComponent();
-
-            
         }
 
-        private void SmartApp(object sender, EventArgs e)
+        private async void SmartApp(object sender, EventArgs e)
         {
-            Device.OpenUri(new Uri("https://play.google.com/store/apps/details?id=net.rention.smarter&hl=en"));
+            var current = Connectivity.NetworkAccess;
+
+            if (current == NetworkAccess.Internet)
+            {
+                //When No Internet Access
+                Device.OpenUri(new Uri("https://play.google.com/store/apps/details?id=net.rention.smarter&hl=en"));
+            }
+            else
+            {
+                //Display
+                await DisplayAlert("CHECK YOUR DATA", "Please check internet connection", "Retry");
+            }
         }
 
         private void Register_Button(object sender, EventArgs e)
@@ -38,6 +47,8 @@ namespace SimpleApp
 
         // public async Task NavigateToBuilding25()
         {
+            /*
+             * 
             var placemark = new Placemark
             {
                 CountryName = "South Africa",
@@ -48,8 +59,30 @@ namespace SimpleApp
             var options = new MapLaunchOptions { Name = "The Cedars Avenue 28" };
 
             await Map.OpenAsync(placemark, options);
+
+             */
+
+            var current = Connectivity.NetworkAccess;
+
+            if (current == NetworkAccess.Internet)
+            {
+                //When No Internet Access
+                var placemark = new Placemark
+                {
+                    CountryName = "South Africa",
+                    AdminArea = "SA",
+                    Thoroughfare = "Robben Island, 7400",
+                    Locality = "Robben Island"
+                };
+                var options = new MapLaunchOptions { Name = "The Cedars Avenue 28" };
+
+                await Map.OpenAsync(placemark, options);
+            }
+            else
+            {
+                //Display
+                await DisplayAlert("CHECK YOUR DATA", "Please check internet connection", "Retry");
+            }
         }
-
-
     }
 }

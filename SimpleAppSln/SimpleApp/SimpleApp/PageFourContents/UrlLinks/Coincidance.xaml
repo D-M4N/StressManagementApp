@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="SimpleApp.Coincidance"
              BackgroundImageSource="city.jpg"
+             Title="LETS DANCE"
              >
     <ContentPage.Content>
         <ScrollView>

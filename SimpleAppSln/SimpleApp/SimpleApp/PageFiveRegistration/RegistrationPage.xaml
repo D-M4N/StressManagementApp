@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="SimpleApp.RegistrationPage"
              BackgroundImageSource="RegistrationBackgroundEdit.jpg"
+             Title="REGISTRATION"
              >
     <ContentPage.Content>
         <ScrollView>

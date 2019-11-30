@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="SimpleApp.AboutNorris"
              BackgroundImageSource="factsBackDrop.jpg"
+             Title="CHUCK FACTS"
              >
     <ContentPage.Content>
         <ScrollView>

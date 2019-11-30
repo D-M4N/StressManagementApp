@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="SimpleApp.AngerManagement"
              BackgroundImageSource="angry.jpg"
+             Title="ANGER MANAGEMANT"
              >
     <ContentPage.Content>
         <ScrollView>
@@ -16,14 +17,13 @@
                 <Image
                     
                     Source="AngerManagementTitle.png" 
-                    HorizontalOptions="CenterAndExpand"
-                    VerticalOptions="Start"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="Start"
                     HeightRequest="130"
                     
                 ></Image>
                 
                 <Label></Label>
-            
 
                 <ImageButton 
             
@@ -49,6 +49,8 @@
                 BorderWidth = "12"
             
                 />
+
+                
 
                 <ScrollView 
                 
@@ -76,6 +78,30 @@
                        />
 
                 </ScrollView>
+
+                <Label
+                    Text="TRY OUR OFFLINE METHOD TO CONTROL ANGER"
+                    FontSize="30"
+                    FontAttributes="Bold"
+                    TextColor="Yellow"
+                    BackgroundColor="Gray"
+                    HorizontalTextAlignment="Center"
+                    
+                    ></Label>
+
+                <ImageButton 
+            
+                Source="AngerSteps.jpg"
+                    HorizontalOptions="EndAndExpand"
+                        VerticalOptions="EndAndExpand"
+                        HeightRequest="100"
+                    Aspect="Fill"
+                Clicked="AngerStepsButton_Clicked"
+               
+                />
+                
+                <Label></Label>
+                <Label></Label>
 
                 <Label 
                     

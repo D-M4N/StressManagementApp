@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="SimpleApp.ActivityOne"
              BackgroundImageSource="home.jpg"
+             Title="ABOUT JUST CHILLIN"
              >
     
     
@@ -75,6 +76,28 @@
                 
              Clicked="LoginButton_Clicked"   
                  
+             />
+
+            <Image 
+                
+                Source="Knight.png"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                HeightRequest="100"
+              
+            
+                
+                />
+            <Label 
+                    
+                    Text="Created by D-M4N FOUNDATION."
+                        TextColor="Red" 
+                            HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                            VerticalTextAlignment="Center"
+                        HorizontalTextAlignment="Center"
+                    FontSize="20"
+                        
                 />
 
 

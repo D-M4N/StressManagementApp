@@ -6,15 +6,18 @@
              mc:Ignorable="d"
              x:Class="SimpleApp.Contents"
              BackgroundImageSource="home.jpg"
-             >
+             Title="CONTENTS PAGE"
+            >
+    
+    
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
 
                 <Image
-                  Source="Greetings.png"  
-                    HeightRequest="230"
                     
+                  Source="Greetings.png"  
+                  HeightRequest="230"
                 
                 ></Image>
 
@@ -25,7 +28,8 @@
                         TextColor="AntiqueWhite"
                     VerticalOptions="Center" 
                 HorizontalOptions="CenterAndExpand" 
-                 />
+                
+                />
 
                 <Label 
                 
@@ -34,6 +38,7 @@
                         TextColor="Red"
                     VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" 
+                    
                  />
 
                  <ImageButton 
@@ -46,11 +51,9 @@
                     HeightRequest="150"
                   Clicked="Chuck" 
                          
-                         
-                    />
+                 />
 
                  <ImageButton 
-                
                 
                  Source="dadJokes.jpg"
                     HorizontalOptions="End"
@@ -58,7 +61,6 @@
                          Margin="20"
                     HeightRequest="150"
                  Clicked="Dad" 
-                         
                          
                  />
 
@@ -74,7 +76,6 @@
 
                 <ImageButton 
                 
-                
                 Source="LoveDancing.jpg"
                     HorizontalOptions="Start"
                          VerticalOptions="StartAndExpand"
@@ -82,11 +83,9 @@
                     HeightRequest="150"
                 Clicked="Dancing" 
                          
-                         
                 />
 
                 <ImageButton 
-                
                 
                 Source="AngerManagement.jpg"
                     HorizontalOptions="Start"
@@ -94,7 +93,6 @@
                          Margin="20"
                     HeightRequest="150"
                 Clicked="Angry" 
-                         
                          
                 />
 
@@ -104,10 +102,9 @@
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
                 HeightRequest="100"
-              
-            
                 
                 />
+                
                 <Label 
                     
                     Text="Created by D-M4N FOUNDATION."
