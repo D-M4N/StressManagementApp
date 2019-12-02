@@ -23,96 +23,95 @@
 
                 <Label 
                 
-                Text="UserName" 
-                 FontSize="20"
-                    TextColor="White"
-                 Margin="12"
-                VerticalOptions="Start"
+                    Text="UserName" 
+                        FontSize="20"
+                             TextColor="White"
+                        Margin="12"
+                    VerticalOptions="Start"
                 
                  />
 
                 <Entry 
                 
-                Text="{Binding UserName}"
-                    FontSize="20"
-                        TextColor="White"
-                    Margin="12"
-                VerticalOptions="Start"
-               
-                
+                    Text="{Binding UserName}"
+                        FontSize="20"
+                            TextColor="White"
+                        Margin="12"
+                    VerticalOptions="Start"
                 
                  />
 
                 <Label 
                 
-                Text="PassWord" 
-                    FontSize="20"
-                         TextColor="White"
-                    Margin="12"
-                VerticalOptions="Start"
+                    Text="PassWord" 
+                        FontSize="20"
+                             TextColor="White"
+                        Margin="12"
+                    VerticalOptions="Start"
                 
                  />
 
                 <Entry 
                 
-                Text="{Binding PassWord}"
-                  FontSize="20"
-                       TextColor="White"
-                   Margin="12"
-                VerticalOptions="Start"
+                    Text="{Binding PassWord}"
+                      FontSize="20"
+                           TextColor="White"
+                       Margin="12"
+                    VerticalOptions="Start"
                 
                  />
 
                 <Label 
                 
-                Text="PassWordConfirm" 
-                    FontSize="20"
-                         TextColor="White"
-                    Margin="12"
-                VerticalOptions="Start"
+                    Text="PassWordConfirm" 
+                        FontSize="20"
+                             TextColor="White"
+                        Margin="12"
+                    VerticalOptions="Start"
                 
                  />
 
                 <Entry 
                 
-                Text="{Binding PassWordConfirm}"
-                  FontSize="20"
-                       TextColor="White"
-                   Margin="12"
-                VerticalOptions="Start"
+                    Text="{Binding PassWordConfirm}"
+                      FontSize="20"
+                           TextColor="White"
+                       Margin="12"
+                    VerticalOptions="Start"
                 
                  />
 
                 <Label 
                 
-                Text="Email" 
-                  FontSize="20"
-                       TextColor="White"
-                  Margin="12"
-                VerticalOptions="Start"
+                    Text="Email" 
+                      FontSize="20"
+                           TextColor="White"
+                      Margin="12"
+                    VerticalOptions="Start"
                 
                  />
                 
                 <Entry 
                 
-                Text="{Binding Email}"
-                  FontSize="20"
-                      TextColor="White"
-                  Margin="12"
-                VerticalOptions="Start"
+                    Text="{Binding Email}"
+                      FontSize="20"
+                          TextColor="White"
+                      Margin="12"
+                    VerticalOptions="Start"
+                    
                 />
                 
                 <Button 
                 
-                Text="Confirm" 
-                Clicked="ConfirmButton_Clicked"
+                    Text="Confirm" 
+                    Clicked="ConfirmButton_Clicked"
                 
                 />
 
                 <Button 
                 
-                Text="Login" 
-                Clicked="LoginButton_Clicked"
+                    Text="Login" 
+                    Clicked="LoginButton_Clicked"
                 
                 />
 

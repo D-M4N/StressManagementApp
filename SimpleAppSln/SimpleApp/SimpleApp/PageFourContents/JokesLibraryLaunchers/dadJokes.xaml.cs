@@ -37,6 +37,7 @@ namespace SimpleApp
                 //Display
                 await DisplayAlert("CHECK YOUR DATA", "Please check internet connection", "Retry");
             }
+           
         }
 
 
