@@ -19,7 +19,9 @@ namespace SimpleApp
 
         private void OnLogin_Clicked(object sender, EventArgs e)
         {
+
             Navigation.PushAsync(new Contents());
+            
         }
 
         private void OnForgotPassWord_Clicked(object sender, EventArgs e)

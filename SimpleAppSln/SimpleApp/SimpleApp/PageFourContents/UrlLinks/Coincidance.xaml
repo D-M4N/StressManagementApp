@@ -35,6 +35,7 @@
                 
                  Source="Trylogo.png"
                     HorizontalOptions="Center"
+                         BackgroundColor="Transparent"
                          VerticalOptions="Start" 
                     HeightRequest="100"             
                  Clicked="WebDance"
