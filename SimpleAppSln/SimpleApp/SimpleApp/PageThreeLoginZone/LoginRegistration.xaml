@@ -21,68 +21,46 @@
                     
                 ></Image>
 
-                <Label 
                 
-                    Text="UserName" 
-                        FontSize="20"
-                             TextColor="White"
-                        Margin="12"
-                    VerticalOptions="Start"
-                
-                 />
 
                 <Entry 
                 
                     x:Name="UserName"
                         Text="{Binding UserName}"
                             IsPassword="True"
+                                Placeholder="User Name"
+                                    PlaceholderColor="White"
                                 FontSize="20"
                             TextColor="White"
                         Margin="12"
                     VerticalOptions="Start"
                 
                  />
-
-                <Label 
                 
-                    Text="PassWord" 
-                        FontSize="20"
-                             TextColor="White"
-                        Margin="12"
-                    VerticalOptions="Start"
-                
-                 />
-
                 <Entry 
                 
                     x:Name="PassWord"
                         Text="{Binding Password}"
                            IsPassword="True"
+                                Placeholder="Pass Word"
+                                    PlaceholderColor="White"
                                 FontSize="20"
                            TextColor="White"
                        Margin="12"
                     VerticalOptions="Start"
                 
                  />
-
                 
-
-                <Label 
                 
-                    Text="Email" 
-                      FontSize="20"
-                           TextColor="White"
-                      Margin="12"
-                    VerticalOptions="Start"
-                
-                 />
                 
                 <Entry 
                 
                     x:Name="Email"
                       Text="{Binding Email}"
                           Keyboard="Email"
-                            FontSize="20"
+                                Placeholder="E-mail"
+                                    PlaceholderColor="White"
+                                FontSize="20"
                           TextColor="White"
                       Margin="12"
                     VerticalOptions="Start"

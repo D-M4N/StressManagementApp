@@ -60,6 +60,10 @@ namespace SimpleApp
 
             }
         }
+        private async void ConfirmButton_Clicked(object sender, EventArgs e)
+        {
+            await DisplayAlert("SIGN UP CONFIRMED", "Please Proceed Back To The Login Screen", "Thank You");
+        }
         private void LoginButton_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new LogInArea());
@@ -67,15 +71,8 @@ namespace SimpleApp
     }
 }
 
-/*
-private async void ConfirmButton_Clicked(object sender, EventArgs e)
-{
-    await DisplayAlert("SIGN UP CONFIRMED", "Please Proceed Back To The Login Screen", "Thank You");
-}
 
 
 
-}
-}
 
-*/
+
