@@ -34,16 +34,15 @@
 
             <Entry 
                 
-                Text="{Binding UserName}"
-                    FontSize="20"
-                        TextColor="White"
-                    Margin="12"
-                VerticalOptions="Start"
+                    x:Name="UserName"
+                        Text="{Binding UserName}"
+                            IsPassword="True"
+                                FontSize="20"
+                            TextColor="White"
+                        Margin="12"
+                    VerticalOptions="Start"
                 
-               
-                
-                
-            />
+                 />
 
             <Label 
                 
@@ -58,33 +57,38 @@
 
             <Entry 
                 
-                Text="{Binding PassWord}"
-                  FontSize="20"
-                       TextColor="White"
-                   Margin="12"
-                VerticalOptions="Start"
+                    x:Name="PassWord"
+                        Text="{Binding Password}"
+                           IsPassword="True"
+                                FontSize="20"
+                           TextColor="White"
+                       Margin="12"
+                    VerticalOptions="Start"
                 
-            />
+                 />
 
-            
 
-            <Button 
-                
-                Text="Login" 
-                FontSize="20"
-                FontAttributes="Bold"
-                Clicked="OnLogin_Clicked"
-                
-            />
+
+            <Button
+                    
+                    Command="{Binding LoginCommand}" 
+                        Text="Login" 
+                            TextColor="White"
+                                Clicked="OnLogin_Clicked"
+                            FontAttributes="Bold" 
+                        FontSize="Large" 
+                    HorizontalOptions="FillAndExpand"
+                    
+                    />
 
             <Button 
                 
                 Text="FORGOT PASS WORD ?" 
-                BackgroundColor="Transparent"
-                TextColor="Red"
-                FontSize="18"
-                HorizontalOptions="Center"
-                FontAttributes="Bold"
+                    BackgroundColor="Transparent"
+                        TextColor="Red"
+                            FontSize="18"
+                        HorizontalOptions="Center"
+                    FontAttributes="Bold"
                 Clicked="OnForgotPassWord_Clicked"
                 
             />
