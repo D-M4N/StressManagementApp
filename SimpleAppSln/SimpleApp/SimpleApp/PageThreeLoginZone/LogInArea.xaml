@@ -35,7 +35,7 @@
             <Entry 
                 
                     x:Name="UserName"
-                        Text="{Binding UserName}"
+                        Text="{Binding username}"
                             IsPassword="True"
                                 FontSize="20"
                             TextColor="White"
@@ -58,7 +58,7 @@
             <Entry 
                 
                     x:Name="PassWord"
-                        Text="{Binding Password}"
+                        Text="{Binding password}"
                            IsPassword="True"
                                 FontSize="20"
                            TextColor="White"

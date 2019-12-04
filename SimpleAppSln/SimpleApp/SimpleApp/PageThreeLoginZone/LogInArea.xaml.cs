@@ -24,28 +24,28 @@ namespace SimpleApp
 
             public event PropertyChangedEventHandler PropertyChanged = delegate { };
 
-            private string email;
-            public string Email
+            private string username;
+            public string UserName
             {
-                get { return email; }
+                get { return username; }
                 set
                 {
-                    email = value;
-                    PropertyChanged(this, new PropertyChangedEventArgs("Email"));
+                    username = value;
+                    PropertyChanged(this, new PropertyChangedEventArgs("UserName"));
                 }
             }
             private string password;
-            public string Password
+            public string PassWord
             {
                 get { return password; }
                 set
                 {
                     password = value;
-                    PropertyChanged(this, new PropertyChangedEventArgs("Password"));
+                    PropertyChanged(this, new PropertyChangedEventArgs("PassWord"));
                 }
             }
 
-            
+
             public ICommand LoginCommand { protected set; get; }
 
             public LoginViewModel()
@@ -54,12 +54,13 @@ namespace SimpleApp
             }
             public void Login()
             {
-                if (email != "madmax@gmail.com" || password != "secret")
+                if (username != "madmax" || password != "secret")
                 {
                     DisplayInvalidLoginPrompt();
                 }
             }
         }
+        
         private void OnLogin_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Contents());

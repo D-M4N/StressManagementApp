@@ -25,24 +25,24 @@ namespace SimpleApp
 
             public event PropertyChangedEventHandler PropertyChanged = delegate { };
 
-            private string email;
-            public string Email
+            private string username;
+            public string UserName
             {
-                get { return email; }
+                get { return username; }
                 set
                 {
-                    email = value;
-                    PropertyChanged(this, new PropertyChangedEventArgs("Email"));
+                    username = value;
+                    PropertyChanged(this, new PropertyChangedEventArgs("UserName"));
                 }
             }
             private string password;
-            public string Password
+            public string PassWord
             {
                 get { return password; }
                 set
                 {
                     password = value;
-                    PropertyChanged(this, new PropertyChangedEventArgs("Password"));
+                    PropertyChanged(this, new PropertyChangedEventArgs("PassWord"));
                 }
             }
             public ICommand ConfirmCommand { protected set; get; }
@@ -53,7 +53,7 @@ namespace SimpleApp
             }
             public void Confirm()
             {
-                if (email != "madmax@gmail.com" || password != "secret")
+                if (username != "madmax" || password != "secret")
                 {
                     DisplayInvalidLoginPrompt();
                 }
