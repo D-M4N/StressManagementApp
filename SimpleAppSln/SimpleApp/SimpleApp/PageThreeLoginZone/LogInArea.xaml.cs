@@ -8,6 +8,7 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 namespace SimpleApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -44,13 +45,10 @@ namespace SimpleApp
                     PropertyChanged(this, new PropertyChangedEventArgs("PassWord"));
                 }
             }
-
-
             public ICommand LoginCommand { protected set; get; }
-
             public LoginViewModel()
             {
-                LoginCommand = new Command(Login);
+                 LoginCommand = new Command(Login);
             }
             public void Login()
             {
@@ -60,7 +58,6 @@ namespace SimpleApp
                 }
             }
         }
-        
         private void OnLogin_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Contents());
@@ -77,3 +74,4 @@ namespace SimpleApp
         }
     }
 }
+
