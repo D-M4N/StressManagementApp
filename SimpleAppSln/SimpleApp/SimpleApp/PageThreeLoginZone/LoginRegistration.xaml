@@ -9,7 +9,6 @@
              Title="SIGN UP"
              >
     <ContentPage.Content>
-        <ScrollView>
             <StackLayout>
 
                 <Image
@@ -17,7 +16,7 @@
                     Source="SignUpHere.png" 
                         Margin="40"
                         VerticalOptions="Start"
-                    HeightRequest="200"
+                    HeightRequest="190"
                     
                 ></Image>
 
@@ -86,6 +85,5 @@
                 />
 
             </StackLayout>
-        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

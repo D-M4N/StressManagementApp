@@ -42,7 +42,7 @@
                         Margin="12"
                     VerticalOptions="Start"
                 
-                 />
+            />
 
             <Label 
                 
@@ -65,21 +65,19 @@
                        Margin="12"
                     VerticalOptions="Start"
                 
-                 />
-
-
-
+            />
+            
             <Button
                     
                     Command="{Binding LoginCommand}" 
                         Text="Login" 
-                            TextColor="White"
+                            TextColor="Black"
                                 Clicked="OnLogin_Clicked"
                             FontAttributes="Bold" 
                         FontSize="Large" 
                     HorizontalOptions="FillAndExpand"
                     
-                    />
+            />
 
             <Button 
                 
@@ -96,22 +94,15 @@
             <Button 
                 
                 Text="Not Registered ? Sign up"
-                HorizontalOptions="Center"
-                FontSize="25"
-                BackgroundColor="Transparent"
-                TextColor="Yellow"
-                Clicked="OnSignUp_Clicked"
+                    HorizontalOptions="Center"
+                        FontSize="25"
+                            BackgroundColor="Transparent"
+                        TextColor="Yellow"
+                    Clicked="OnSignUp_Clicked"
                 FontAttributes="Bold"
                 
-                
             />
-
             
-
-
-
-
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
