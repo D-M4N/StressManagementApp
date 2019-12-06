@@ -220,10 +220,10 @@
                                 After things have settled down and the moment has passed, take time to evaluate how you responded to the situation and the impact that this had on you, on others, and on the events and circumstances, you were dealing with. "
                                     Grid.Column="0"
                                         Grid.Row="5"
-                                        FontSize="20"
+                                        FontSize="19"
                                     TextColor="Black"
                                 FontAttributes="Bold"
-                           HorizontalOptions="Center" 
+                           HorizontalOptions="Center"
                            
                      />
 
