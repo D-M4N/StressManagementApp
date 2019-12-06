@@ -9,6 +9,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 
+
 namespace SimpleApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
