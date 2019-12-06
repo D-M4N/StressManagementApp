@@ -7,72 +7,68 @@
              x:Class="SimpleApp.MainPage"
             BackgroundImage="welcome.jpg"
              Title="JUST CHILLIN APP"
-             
-             
              >
-
-    <StackLayout>
-        <!-- Place new controls here -->
+    
+    <ScrollView>
+        <StackLayout>
+            <!-- Place new controls here -->
         
-        <Image 
+            <Image 
             
-            Source="title.png"
-                HorizontalOptions="CenterAndExpand"
+                Source="title.png"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                HeightRequest="130"
+               
+            />
+
+        
+
+            <Image 
+            
+                Source="sun.png"
+                   HeightRequest="200"
+                   HorizontalOptions="CenterAndExpand"
                 VerticalOptions="CenterAndExpand"
-            HeightRequest="130"
                
-               />
+            />
 
-        
-
-        <Image 
+            <Button 
             
-            Source="sun.png"
-               HeightRequest="200"
-               HorizontalOptions="CenterAndExpand"
-            VerticalOptions="CenterAndExpand"
-               
-               
-               />
-
-        <Button 
+                x:Name="Journey" 
+                    Text="Your journey starts here !" 
+                          TextColor="Black"
+                            VerticalOptions="CenterAndExpand"
+                                 HorizontalOptions="CenterAndExpand"
+                                 HeightRequest="100" 
+                            FontSize="23"             
+                         Clicked="ActivityOneButton_Clicked"
+                     BorderRadius = "100"
+                BorderWidth = "12"
             
-            x:Name="Journey" 
-                Text="Your journey starts here !" 
-                      TextColor="Black"
-                        VerticalOptions="CenterAndExpand"
-                             HorizontalOptions="CenterAndExpand"
-                             HeightRequest="100" 
-                        FontSize="23"             
-                     Clicked="ActivityOneButton_Clicked"
-                 BorderRadius = "100"
-            BorderWidth = "12"
-            
-        />
+            />
 
-        <Image 
+            <Image 
                 
-                Source="Knight.png"
-                    VerticalOptions="Center"
-                    HorizontalOptions="Center"
-                HeightRequest="100"
-              
-            
+                    Source="Knight.png"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                    HeightRequest="100"
                 
-                />
-        <Label 
+            />
+            
+            <Label 
                     
-                    Text="Created by D-M4N FOUNDATION."
-                        TextColor="Red" 
-                            HorizontalOptions="Center"
-                                 VerticalOptions="Center"
-                            VerticalTextAlignment="Center"
-                        HorizontalTextAlignment="Center"
-                    FontSize="20"
+                        Text="Created by D-M4N FOUNDATION."
+                            TextColor="Red" 
+                                HorizontalOptions="Center"
+                                     VerticalOptions="Center"
+                                VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Center"
+                        FontSize="20"
                         
-         />
+             />
 
-</StackLayout>
-   
-
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

@@ -9,100 +9,102 @@
              Title="LOGIN AREA"
              >
     <ContentPage.Content>
-        <StackLayout>
+        <ScrollView>
+            <StackLayout>
 
-            <Image
+                <Image
                 
-                Source="loginLogo.png" 
-                    Margin="20"
-                        VerticalOptions="Start"
-                    HorizontalOptions="Start"
-                HeightRequest="100"
+                    Source="loginLogo.png" 
+                        Margin="20"
+                            VerticalOptions="Start"
+                        HorizontalOptions="Start"
+                    HeightRequest="100"
                 
-            ></Image>
+                ></Image>
 
-            <Label 
+                <Label 
                 
-                Text="UserName" 
-                    FontSize="25"
-                        TextColor="Black"
-                        Margin="12"
-                    VerticalOptions="Start"
-                HorizontalOptions="Center"
-                
-            />
-
-            <Entry 
-                
-                    x:Name="UserName"
-                        Text="{Binding username}"
-                            IsPassword="True"
-                                FontSize="20"
-                            TextColor="White"
-                        Margin="12"
-                    VerticalOptions="Start"
-                
-            />
-
-            <Label 
-                
-                Text="PassWord" 
-                    FontSize="25"
-                         TextColor="Black"
-                         Margin="12"
-                    VerticalOptions="Start"
-                HorizontalOptions="Center"
-                
-            />
-
-            <Entry 
-                
-                    x:Name="PassWord"
-                        Text="{Binding password}"
-                           IsPassword="True"
-                                FontSize="20"
-                           TextColor="White"
-                       Margin="12"
-                    VerticalOptions="Start"
-                
-            />
-            
-            <Button
-                    
-                    Command="{Binding LoginCommand}" 
-                        Text="Login" 
-                            TextColor="Black"
-                                Clicked="OnLogin_Clicked"
-                            FontAttributes="Bold" 
-                        FontSize="Large" 
-                    HorizontalOptions="FillAndExpand"
-                    
-            />
-
-            <Button 
-                
-                Text="FORGOT PASS WORD ?" 
-                    BackgroundColor="Transparent"
-                        TextColor="Red"
-                            FontSize="18"
-                        HorizontalOptions="Center"
-                    FontAttributes="Bold"
-                Clicked="OnForgotPassWord_Clicked"
-                
-            />
-
-            <Button 
-                
-                Text="Not Registered ? Sign up"
-                    HorizontalOptions="Center"
+                    Text="UserName" 
                         FontSize="25"
-                            BackgroundColor="Transparent"
-                        TextColor="Yellow"
-                    Clicked="OnSignUp_Clicked"
-                FontAttributes="Bold"
+                            TextColor="Black"
+                            Margin="12"
+                        VerticalOptions="Start"
+                    HorizontalOptions="Center"
                 
-            />
+                />
+
+                <Entry 
+                
+                        x:Name="UserName"
+                            Text="{Binding username}"
+                                IsPassword="True"
+                                    FontSize="20"
+                                TextColor="White"
+                            Margin="12"
+                        VerticalOptions="Start"
+                
+                />
+
+                <Label 
+                
+                    Text="PassWord" 
+                        FontSize="25"
+                             TextColor="Black"
+                             Margin="12"
+                        VerticalOptions="Start"
+                    HorizontalOptions="Center"
+                
+                />
+
+                <Entry 
+                
+                        x:Name="PassWord"
+                            Text="{Binding password}"
+                               IsPassword="True"
+                                    FontSize="20"
+                               TextColor="White"
+                           Margin="12"
+                        VerticalOptions="Start"
+                
+                />
             
-        </StackLayout>
+                <Button
+                    
+                        Command="{Binding LoginCommand}" 
+                            Text="Login" 
+                                TextColor="Black"
+                                    Clicked="OnLogin_Clicked"
+                                FontAttributes="Bold" 
+                            FontSize="Large" 
+                        HorizontalOptions="FillAndExpand"
+                    
+                />
+
+                <Button 
+                
+                    Text="FORGOT PASS WORD ?" 
+                        BackgroundColor="Transparent"
+                            TextColor="Red"
+                                FontSize="18"
+                            HorizontalOptions="Center"
+                        FontAttributes="Bold"
+                    Clicked="OnForgotPassWord_Clicked"
+                
+                />
+
+                <Button 
+                
+                    Text="Not Registered ? Sign up"
+                        HorizontalOptions="Center"
+                            FontSize="25"
+                                BackgroundColor="Transparent"
+                            TextColor="Yellow"
+                        Clicked="OnSignUp_Clicked"
+                    FontAttributes="Bold"
+                
+                />
+            
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

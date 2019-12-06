@@ -9,6 +9,7 @@
              Title="SIGN UP"
              >
     <ContentPage.Content>
+        <ScrollView>
             <StackLayout>
 
                 <Image
@@ -85,5 +86,6 @@
                 />
 
             </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
