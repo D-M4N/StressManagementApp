@@ -19,7 +19,6 @@ namespace SimpleApp
         {
             InitializeComponent();
         }
-
         public class LoginViewModel : INotifyPropertyChanged
         {
             public Action DisplayInvalidLoginPrompt;

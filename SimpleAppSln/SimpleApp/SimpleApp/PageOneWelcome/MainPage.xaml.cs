@@ -24,6 +24,5 @@ namespace SimpleApp
         {
            Navigation.PushAsync(new ActivityOne());
         }
-
     }
 }

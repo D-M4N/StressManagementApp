@@ -15,16 +15,11 @@ namespace SimpleApp
         public ActivityOne()
         {
             InitializeComponent();
-
-            
         }
 
         private void LoginButton_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new LogInArea());
         }
-
-      
-
     }
 }
